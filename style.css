@@ -1,0 +1,95 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+body {
+  background-color: gray;
+}
+.container {
+  max-width: 1000px;
+  background-color: rgb(241, 35, 131);
+  margin: 0 auto;
+  padding: 20px;
+}
+.profileimg {
+  width: 100px;
+  height: 120px;
+  border: 3px solid white;
+  border-radius: 50%;
+  float: left;
+}
+.bio {
+  float: left;
+  padding: 30px;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: rgb(111, 204, 24);
+}
+.contack {
+  float: right;
+}
+.contack a {
+  text-decoration: none;
+  color: teal;
+  font-weight: bold;
+}
+
+.contack a:hover {
+  text-decoration: underline;
+  color: tomato;
+}
+.div-clear {
+  clear: both;
+}
+hr {
+  border: 3px solid black;
+  width: 100%;
+  margin: 20px auto;
+  border-bottom: none;
+}
+/* .personal-section {
+} */
+.content {
+  margin-bottom: 30px;
+}
+.left-div {
+  width: 30%;
+  float: left;
+}
+.right-div {
+  width: 70%;
+  float: right;
+}
+.common-hr {
+  border: 1px solid black;
+  width: 100%;
+  margin: 20px auto;
+  border-bottom: none;
+}
+.edu-section-left {
+  float: left;
+  width: 40%;
+}
+.edu-section-right {
+  float: right;
+  width: 40%;
+}
+.bottom {
+  background-color: black;
+  text-align: center;
+  padding: 10px;
+}
+.bottom a {
+  color: white;
+  text-decoration: none;
+  margin: 20px;
+}
+.bottom p {
+  color: white;
+  margin-top: 20px;
+}
